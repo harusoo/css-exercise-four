@@ -1,4 +1,75 @@
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-family: "system-ui", sans-serif;
+  font-size: 75%;
+  display: block;
+  margin: 8px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+.container {
+  margin: 0 auto;
+  width: 26.5%;
+}
+
+div {
+  float: left;
+  margin: 1% 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 575px) {
+  div {
+    margin: 1%;
+    width: 48%;
+  }
+  h1 {
+    width: 48%;
+  }
+  img {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+  div {
+    margin: 1%;
+    width: 20%;
+  }
+  img {
+    width: 20%;
+  }
+}
+
+img {
+  width: 100%;
+  height: 300px;
+  padding-bottom: 4%;
+}
+
+h1, h2 {
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 1.2;
+  width: 100%;
+}
+
+h1 {
+  margin: 5%;
+  padding: 5% 5% 5% 25%;
+  position: relative;
+  float: left;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: Serif;
+  float: left;
+  position: relative;
+  margin-top: -73%;
+  padding: 10% 10% 10% 10%;
 }
