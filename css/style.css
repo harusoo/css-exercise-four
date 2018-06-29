@@ -1,48 +1,21 @@
 body {
   background-color: #dadada;
-  font-family: "system-ui", sans-serif;
-  font-size: 75%;
-  display: block;
-  margin: 8px;
+  font-size: 10px;
 }
 
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
-
 .container {
   margin: 0 auto;
-  width: 26.5%;
-}
-
-div {
-  float: left;
-  margin: 1% 0;
   width: 100%;
 }
 
-@media screen and (min-width: 575px) {
-  div {
-    margin: 1%;
-    width: 48%;
-  }
-  h1 {
-    width: 48%;
-  }
-  img {
-    width: 48%;
-  }
-}
-
-@media screen and (min-width: 991px){
-  div {
-    margin: 1%;
-    width: 20%;
-  }
-  img {
-    width: 20%;
-  }
+.preview {
+  box-sizing: border-box;
+  margin: 1% 0;
+  width: 100%;
 }
 
 img {
@@ -51,25 +24,46 @@ img {
   padding-bottom: 4%;
 }
 
-h1, h2 {
+h1 {
   font-size: 1.5em;
   font-weight: 200;
   line-height: 1.2;
-  width: 100%;
-}
-
-h1 {
-  margin: 5%;
-  padding: 5% 5% 5% 25%;
-  position: relative;
-  float: left;
+  text-align: center;
+  padding: 5%;
+  font-family: sans-serif;
 }
 
 h2 {
   font-size: 2em;
-  font-family: Serif;
-  float: left;
+  font-weight: 200;
+  line-height: 1.2;
   position: relative;
-  margin-top: -73%;
-  padding: 10% 10% 10% 10%;
+  float: left;
+}
+
+.baku {
+  box-sizing: border-box;
+  background-image: url("baku.jpg");
+  width: 100%;
+  text-align: left;
+}
+
+.london {
+  box-sizing: border-box;
+  background-image: url("london.png");
+  width: 100%;
+}
+
+.madrid {
+  box-sizing: border-box;
+  background-image: url("madrid.jpg");
+  width: 100%;
+  font-size: 1em;
+}
+
+.rome {
+  box-sizing: border-box;
+  background-image: url("rome.jpg");
+  width: 100%;
+  font-size: 1em;
 }
